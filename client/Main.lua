@@ -35,7 +35,7 @@ CreateThread(function()
             if dist <= 3.5 then
                 wait = 1
                 DrawMarker(22, v.exitPos.x, v.exitPos.y, v.exitPos.z, 0.0, 0.0, 0.0, 0.0,0.0,0.0, 0.3, 0.3, 0.3, v.markersColor.r, v.markersColor.g, v.markersColor.b, 255, true, true, p19, true)
-                ESX.ShowHelpNotification("Appuyer sur ~INPUT_TALK~ pour quitter dans le laboratoire")
+                ESX.ShowHelpNotification("Appuyer sur ~INPUT_TALK~ pour quitter le laboratoire")
             end
             if dist <= 3.5 then
                 wait = 1
